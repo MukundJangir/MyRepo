@@ -36,7 +36,7 @@
     </target>
 
 	<!-- Deploy the unpackaged set of metadata retrieved with retrieveUnpackaged -->
-	    <target name="Jenikn">
+	    <target name="MyPkg">
 	      <sf:deploy username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" deployRoot="src"/>
 	    </target>
     <!-- Deploy a zip of metadata files to the org -->
