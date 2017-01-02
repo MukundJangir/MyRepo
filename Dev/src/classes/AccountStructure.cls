@@ -51,7 +51,7 @@ public with sharing class AccountStructure{
         if ( currentId == null ) {
             currentId = System.currentPageReference().getParameters().get( 'id' );
         }
-        
+        //Added comment for Jnkin Build
         System.assertNotEquals( currentId, null, 'sObject ID must be provided' );
         asm = formatObjectStructure( CurrentId );
         
